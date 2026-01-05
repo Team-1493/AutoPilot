@@ -12,7 +12,7 @@ from AutoPilot_py.Contraints import APConstraints
 #  no longer respects entry angle. This is helpful because if the robot overshoots by a small
 #  amount, that error should not cause the robot do completely circle back around.
 
-class APProfile:
+class APProfile: 
 
   def __init__(self, const: APConstraints):
     """"

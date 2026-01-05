@@ -5,7 +5,7 @@ from AutoPilot_py.Contraints import APConstraints
 from AutoPilot_py.Profile import APProfile
 
 class ap_driver:
-    instance=None
+    instance=None 
     
     @staticmethod
     def getInstance():

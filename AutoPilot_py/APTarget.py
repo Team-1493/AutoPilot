@@ -11,7 +11,7 @@ class ap_target:
     A target may also specify an end velocity or end velocity.
     """        
 
-
+ 
     def __init__(self,pose:Pose2d):
         """ Creates a new Autopilot target with the given target pose, no entry angle, and no end velocity.
             pose =  The reference pose for this target.

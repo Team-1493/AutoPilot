@@ -7,7 +7,7 @@
 
 import math
 
-
+ 
 
 class APConstraints:
     def __init__(self,vel :float = math.inf, acc : float | None = None, jerk: float | None = None):

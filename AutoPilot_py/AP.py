@@ -156,7 +156,7 @@ class Autopilot:
         target =  The APTarget that Autopilot is trying to reach.
         dist =  The distance from the robot to the target.
         """
-        if target.m_rotationRadius is None:
+        if target.m_rotationRadius is None: 
             return target.m_reference.rotation()
     
         radius = target.m_rotationRadius
