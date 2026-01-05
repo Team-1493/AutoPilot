@@ -161,7 +161,7 @@ class Autopilot:
     
         radius = target.m_rotationRadius
         if (radius > dist):
-            return target.m_reference.rotation()
+            return target.m_reference.rotation() 
         else:
             return current
 
